@@ -1,0 +1,147 @@
+body{
+    
+    background-image: linear-gradient(-20deg, #eea3ad 0%, #42382f 100%);
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+  .container{
+    width: 500px;
+    height: auto;
+    background-color: rgb(233, 231, 231);
+    left: 390px;
+    top: 210px;
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+  }
+h1{
+  margin-left: 130px;
+}
+.btn{
+ 
+  position: fixed;
+  height: 46.5px;
+  background-color: rgb(99, 3, 3);
+  border-radius: 20px;
+  top: 297.5px;
+  right: 522px;
+  width: 60px;
+  color: white;
+  
+}
+.btn:hover{
+
+     background-color: rgba(6, 41, 54, 0.959);
+    
+    }
+
+#todo{
+    margin: 10px 100px;
+    
+}
+#user-value{
+  margin-left: 70px;
+  width: 300px;
+  height: 40px;
+ border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
+ }
+ input[type=text] {
+
+  padding: 0px 10px;
+ }
+
+.flex{
+ margin-top: 10px; 
+position: relative;
+right: 60px;
+
+display: flex;
+gap: 20px;
+align-items: center;
+justify-content: space-between;
+font-family: sans-serif;
+padding: 0px 10px;
+border-radius: 5px;
+}
+
+.checked {
+    background: #888;
+   text-decoration: line-through;
+  }
+  button{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    }
+    @media only screen and (max-width: 520px) {
+      
+      .container{
+        width: 360px;
+        position: fixed;
+        height: auto;
+        background-color: white;
+        left:50px;
+        top: 120px;
+        border-radius: 10px;
+        padding: 10px;
+        
+        
+      }
+      #user-value{
+        margin-left: 50px;
+        width: 200px;
+        height: 30px;
+       border-top-left-radius: 20px;
+       border-bottom-left-radius: 20px;
+       }
+       input[type=text] {
+      
+        padding: 0px 10px;
+       }
+       h1{
+        margin-left: 80px;
+        font-size: 30px;
+        font-family: sans-serif;
+
+      }
+      .btn{
+ 
+        position: fixed;
+        height: 34px;
+        background-color: red;
+        border-radius: 20px;
+        left:  298px;
+        top: 203.5px;
+        width: 50px;
+        bottom: 200px;
+        color: white;
+        
+      }
+      .flex{
+        margin-top: 10px; 
+       position: relative;
+       right: 120px;
+      
+       display: flex;
+       gap: 5px;
+       font-size: 13px; 
+       font-family: sans-serif;
+       border-radius: 5px;
+       }
+       button{
+        
+        color:white;
+        border-radius: 20px;
+        height: 23px;
+        width: 200px;
+       border-radius: 5px;
+      
+        }
+       
+    }  
+  
+    
+  
